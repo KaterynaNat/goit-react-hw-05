@@ -7,7 +7,7 @@
   color: rgba(255, 255, 255, 0.87);
 
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('public/westerns-movies-bg.avif')
+    url('/westerns-movies-bg.avif')
     no-repeat center center;
   background-size: cover;
 
@@ -64,7 +64,7 @@ button:focus-visible {
    
     background: 
     linear-gradient(rgba(88, 82, 82, 0.6), rgba(97, 90, 90, 0.6)),
-      url('public/westerns-movies-bg.avif')
+      url('/westerns-movies-bg.avif')
       no-repeat center center;
     background-size: cover;
   }
