@@ -1,0 +1,46 @@
+.container {
+    padding: 20px;
+    background-color: #f4e8c1;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+    color: #604020;
+    font-family: 'Georgia', serif;
+    font-size: 28px;
+  }
+  
+  .searchForm {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .searchInput {
+    flex: 1;
+    padding: 5px 10px;
+    border: 1px solid #8b5a2b;
+    font-size: 16px;
+    font-family: 'Georgia', serif;
+  }
+  
+  .searchButton {
+    background-color: #8b5a2b;
+    color: #fff;
+    border: none;
+    padding: 7px 15px;
+    cursor: pointer;
+    font-family: 'Georgia', serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  .searchButton:hover {
+    background-color: #c97f37;
+  }
+
+  .shadowFrame {
+    position: relative;
+    border: 2px solid rgba(96, 64, 32, 0.8);
+    border-radius: 6px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }

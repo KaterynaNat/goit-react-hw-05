@@ -5,7 +5,11 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('src/img/westerns-movies-bg.avif')
+    no-repeat center center;
+  background-size: cover;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -57,7 +61,12 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+   
+    background: 
+    linear-gradient(rgba(88, 82, 82, 0.6), rgba(97, 90, 90, 0.6)),
+      url('src/img/westerns-movies-bg.avif')
+      no-repeat center center;
+    background-size: cover;
   }
   a:hover {
     color: #747bff;

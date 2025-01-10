@@ -1,0 +1,29 @@
+.castList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+    background-color: #f4e8c1;
+    border: 2px solid #8b5a2b;
+    border-radius: 5px;
+  }
+  
+  .castItem {
+    width: 120px;
+    text-align: center;
+    font-size: 14px;
+    color: #604020;
+    font-family: 'Verdana', sans-serif;
+    background-color: #fff8e6;
+    border: 1px dashed #d9b382;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  .castItem img {
+    border-radius: 4px;
+    margin-bottom: 8px;
+    border: 2px solid #d9b382;
+  }

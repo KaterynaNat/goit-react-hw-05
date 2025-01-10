@@ -1,0 +1,28 @@
+.reviewsList {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .reviewItem {
+    margin-bottom: 16px;
+    background-color: #fffaf0;
+    border-left: 4px solid #8b5a2b;
+    padding: 10px 15px;
+    border-radius: 3px;
+  }
+  
+  .reviewAuthor {
+    font-weight: bold;
+    color: #604020;
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .reviewContent {
+    font-family: 'Times New Roman', serif;
+    font-size: 14px;
+    color: #5a3c15;
+    line-height: 1.4;
+  }

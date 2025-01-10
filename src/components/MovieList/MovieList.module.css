@@ -1,0 +1,30 @@
+.list {
+    list-style: none;
+    padding: 20px;
+    background-color: #f9f4e3;
+    border: 2px dashed #a37746;
+    border-radius: 5px;
+  }
+  
+  .item {
+    margin-bottom: 8px;
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    color: #5a3c15;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #8b5a2b;
+    transition: color 0.3s;
+  }
+  
+  .link:hover {
+    color: #c97f37;
+    text-decoration: underline;
+  }
+
+  .noMovies {
+    color: #000;
+  }
+  
