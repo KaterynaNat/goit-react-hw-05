@@ -14,7 +14,7 @@ const MovieReviews = () => {
   }, [movieId]);
 
   if (reviews.length === 0) {
-    return <p>We do not have any reviews for this movie.</p>;
+    return <p className={styles.noReviewsMessage}>We do not have any reviews for this movie.</p>;
   }
 
   return (
